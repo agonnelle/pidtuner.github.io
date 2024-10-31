@@ -22,7 +22,7 @@ await $.asyncGet(scriptPidTunerViewDir + "PidTunerView.html", function(data){
 }.bind(this));
 
 // setup parse (API)
-Parse.serverURL = 'https://api.pidtuner.com/parse';
+Parse.serverURL = 'https://agonnelle.github.io/api.pidtuner.github.io/parse';
 Parse.initialize("pidtuner");
 
 var PidTunerView = {
@@ -377,7 +377,7 @@ var PidTunerView = {
                 this.dialog = {
                 	"title" : "Success",
                 	"header" : "Your project has been updated",
-                	"content" : `Use the following link to share your project.<br><a href="https://pidtuner.com/#/${this.proj_id}">https://pidtuner.com/#/${this.proj_id}</a>`
+                	"content" : `Use the following link to share your project.<br><a href="https://agonnelle.github.io/pidtuner.github.io/#/${this.proj_id}">https://agonnelle.github.io/pidtuner.github.io/#/${this.proj_id}</a>`
                 }            
 			    this.$nextTick( () => {
 			    	$(this.$refs.dialog).modal('show');
@@ -389,7 +389,7 @@ var PidTunerView = {
             this.dialog = {
             	"title" : "Success",
             	"header" : "Your project has been saved",
-            	"content" : `Use the following link to share your project.<br><a href="https://pidtuner.com/#/${this.proj_id}">https://pidtuner.com/#/${this.proj_id}</a>`
+            	"content" : `Use the following link to share your project.<br><a href="https://agonnelle.github.io/pidtuner.github.io/#/${this.proj_id}">https://agonnelle.github.io/pidtuner.github.io/#/${this.proj_id}</a>`
             }            
 			this.$nextTick( () => {
 				$(this.$refs.dialog).modal('show');
