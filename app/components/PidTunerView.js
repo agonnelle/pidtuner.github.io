@@ -22,7 +22,7 @@ await $.asyncGet(scriptPidTunerViewDir + "PidTunerView.html", function(data){
 }.bind(this));
 
 // setup parse (API)
-Parse.serverURL = 'https://agonnelle.github.io/api.pidtuner.github.io/parse';
+Parse.serverURL = 'https://agonnelle.github.io/api.pidtuner.github.io/parse'; // original link: 'https://api.pidtuner.com/parse'
 Parse.initialize("pidtuner");
 
 var PidTunerView = {
